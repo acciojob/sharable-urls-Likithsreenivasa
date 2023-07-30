@@ -20,7 +20,10 @@ function addTheme(){
 	{
 		add.innerText=value1+`?name=${nameValue}`
 	}
-	
+	else if(yearValue==="" && nameValue==="")
+	{
+		add.innerText=value1;
+	}
 	
 }
 
